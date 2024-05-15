@@ -28,7 +28,7 @@ public class LongPressListener : MonoBehaviour, IPointerDownHandler, IPointerUpH
         button = GetComponent<Button>();
         delay = new WaitForSeconds(0.1f);
     }
-
+    
     public void OnPointerDown(PointerEventData eventData)
     {
         isPointerDown = true;

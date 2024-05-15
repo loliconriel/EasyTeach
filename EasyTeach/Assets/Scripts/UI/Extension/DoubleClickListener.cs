@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class DoubleClickListener : MonoBehaviour, IPointerClickHandler
 {
 
-    [Tooltip("Duration between 2 clicks in seconds")]
-    [Range(0.01f, 0.5f)] public float doubleClickDuration = 0.4f;
+    [Tooltip("Duration between 2 clicks in seconds")] 
+    [Range(0.01f, 0.91f)] public float doubleClickDuration = 0.4f;
     public UnityEvent onDoubleClick;
 
     private byte clicks = 0;
